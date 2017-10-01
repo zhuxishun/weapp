@@ -1,0 +1,20 @@
+{
+    "name": "zhuxishun/weapp",
+    "type": "library",
+    "description": "warp the wechat weapp sdk",
+    "license": "MIT",
+    "require": {
+        "qcloud/weapp-sdk": "^0.4.4"
+    },
+    "authors": [
+        {
+            "name": "zhuxishun",
+            "email": "35975917@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ben\\Qcloud\\": "src/"
+        }
+    }
+}
